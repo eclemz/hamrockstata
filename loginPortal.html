@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Portal</title>
+
+    <style>
+        .header a {
+            border-left: 2px solid rgb(211, 202, 202);
+            margin: 12px;
+            margin-left: -60px;
+            padding: 12px;
+            color: black;
+            float: left;
+
+        }
+
+        .header-right {
+            float: right;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .header {
+            overflow: hidden;
+            background-color:#ffffff;
+            /* padding: 12px 10px; */
+            margin-right: 150px;
+            height: 150px;
+        }
+
+        .logo {
+            height: 50px;
+            width: 250px;
+            padding-left: 20px;
+        }
+
+        .values h3 {
+            text-align: center;
+            border-bottom: 3px solid rgb(238, 112, 10);
+            padding: 10px;
+        }
+
+        .values p {
+            text-align: center;
+            padding: 20px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        form {
+            text-align: center;
+            padding: 80px;
+            border: 2px solid rgb(238, 112, 10);
+            border-radius: 12px;
+            width: 150px;
+            background-color: darkgray;
+            margin-top: 100px;
+            
+        }
+
+        .submit {
+            font-size: 12px;
+            font-weight: bold;
+            border: 2px solid rgb(238, 112, 10);
+            border-radius: 8px;
+            color: black;
+            background-color: rgb(238, 112, 10);
+            width: 100px;
+            margin-top: 20px;
+            margin-left: 10px;
+            
+        }
+
+        section
+        {
+            padding-left: 550px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="big">
+        <div class="header">
+            <a href="hamrockStrata.html"><img src="img/hamrocklogo1.jpg" style="height: 170px; width: 300px;" class="logo" alt=""></a>
+        </div>
+    
+        <div class="values">
+            <h3><b>Staff Portal</b></h3>
+        </div>
+
+    <section class="main-container">
+        <div class="main-wrapper">
+            <form method="post" action="" class="login">
+                <input type="text" name="uid" placeholder="Username" style="font-size: 14px; width: 150px; border: 2px solid rgba(59, 58, 55, 0.178);"> <br> <br>
+                <input type="password" name="pwd" placeholder="Password" style="font-size: 14px; width: 150px; border: 2px solid rgba(59, 58, 55, 0.178);">
+                <button type="submit" name="submit" class="submit">Login</button>
+            </form>
+        </div>
+
+    </section>
+</body>
+</html>
